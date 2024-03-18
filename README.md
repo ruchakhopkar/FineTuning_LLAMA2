@@ -3,7 +3,7 @@ FineTuning LLAMA2 for medical datasets
 
 <br> I use [this medical dataset](https://huggingface.co/datasets/gamino/wiki_medical_terms/viewer/default/train?p=68) to fine-tune the model.
 <br> However, we cannot use this raw dataset directly for training. Hence, we use [this formatted dataset](https://huggingface.co/datasets/aboonaji/wiki_medical_terms_llam2_format) that we can directly use to fine-tune a Llama2 model.
-<br> I am using AutoModelForCausalLM from the transformers library to train a causal LM for text generation. 
+<br> I am using AutoModelForCausalLM from the transformers library to train a causal LM for text generation. We use the [pre-trained Llama2 model](https://huggingface.co/aboonaji/llama2finetune-v2). 
 <br> To reduce the compute and memory usage, we use the 4 bit version of the model. We also turn off cache memory and deactivate accurate computation on the linear layers.
 <br> I use AutoTokenizer to tokenize the input text.
 <br> I then use the SFTTrainer to fine-tune the pretrained Llama2 model. 
