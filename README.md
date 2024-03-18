@@ -12,7 +12,8 @@ FineTuning LLAMA2 for medical datasets
 <br>
 <br>
 <br> SAMPLE OUTPUT
-<br> <s>[INST] Please tell me about Ascariasis [/INST]  Ascariasis is a parasitic infection caused by the Ascaris lumbricoides roundworm. Unterscheidung between Ascaris suum and Ascaris lumbricoides is difficult, and the two species are often considered to be the same. The infection is caused by the ingestion of infective larvae, which then migrate through the body and can cause a range of symptoms, including:
+<br> Please tell me about Ascariasis
+<br> Ascariasis is a parasitic infection caused by the Ascaris lumbricoides roundworm. Unterscheidung between Ascaris suum and Ascaris lumbricoides is difficult, and the two species are often considered to be the same. The infection is caused by the ingestion of infective larvae, which then migrate through the body and can cause a range of symptoms, including:
 
 1. Abdominal pain
 2. Diarrhea
