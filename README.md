@@ -9,7 +9,9 @@ FineTuning LLAMA2 for medical datasets
 <br> I then use the SFTTrainer to fine-tune the pretrained Llama2 model. 
 <br> training_loss=1.6542158508300782
 <br> I end by asking the fine-tuned model about a disease.
-<br>---------------SAMPLE OUTPUT-----------------------------------
+<br>
+<br>
+<br> SAMPLE OUTPUT
 <br> <s>[INST] Please tell me about Ascariasis [/INST]  Ascariasis is a parasitic infection caused by the Ascaris lumbricoides roundworm. Unterscheidung between Ascaris suum and Ascaris lumbricoides is difficult, and the two species are often considered to be the same. The infection is caused by the ingestion of infective larvae, which then migrate through the body and can cause a range of symptoms, including:
 
 1. Abdominal pain
